@@ -1,0 +1,15 @@
+spring:
+  h2:
+    console:
+      enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: none
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+
+logging:
+  level:
+    org.hibernate.SQL: debug
+    #org.hibernate.type.descriptor.sql: trace
